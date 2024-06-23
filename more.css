@@ -1,0 +1,9 @@
+body {
+    background-color: aqua;
+}
+
+.text {
+    padding-top: 250px;
+    padding-left: 350px;
+    font-size: 35px;
+}

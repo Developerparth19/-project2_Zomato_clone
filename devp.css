@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    background-color: #010101;
+    justify-content: center;
+    align-items: center;
+}
+marquee {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px violet;
+    font-size: 55px;
+    padding-top: 25px;
+}
+.videobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    border: 1.5px solid violet;
+    max-width: 97%;
+    height: auto;
+    margin: 0 auto;
+}
+/* Responsive design for smaller screens */
+@media only screen and (max-width: 768px) {
+    video {
+        width: 95%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
+@media only screen and (max-width: 480px) {
+    video {
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
